@@ -12,7 +12,7 @@ const MyCourses = () => {
 
   useEffect(() => {
     fetchEducatorCourse()
-  }, [])
+  }, [courses])
 
   return courses?(
     <div className='h-screen flex flex-col items-center justify-between md:p-8 md:pb-0 p-4 pt-8 pb-0'>
